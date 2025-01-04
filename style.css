@@ -1,0 +1,189 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background:#95caff;;
+  color :white;
+  
+ 
+}
+
+body {
+	margin:0;
+	padding :0;
+	hight:100vh;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+   background: linear-gradient(to bottom, #6ec1e4, #396afc);
+  
+  min-height:100vh;
+  
+}
+.pp{
+	color:red;
+}
+
+.mainContainer pp{
+	margin:0 auto;
+	padding :1rem;
+  width: 25rem;
+  height: auto;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+			
+	color:red;		 
+}
+
+.searchInput {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: center;
+  gap:0.5rem;
+}
+
+.searchInput input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  font-size: 1rem;
+  color:#57abff ;
+  background-color:white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #b3b3b3;
+}
+
+.searchInput input:focus {
+  border: 1px solid #9c9dde;
+ 
+}
+
+.searchInput button {
+  width: 4rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: white;
+ border-redius:50px;
+  margin-left: 0.4rem;
+  transition: all 0.3s ease;
+  background-color: #4aa5ff;;
+  border: 2px solid #b3b3b3;
+  font-size:0.9rem;
+  text-transform:capitalize;
+  }
+  
+  
+  
+
+#searchButton {
+  width: 4rem; /* Adjust the width */
+  height: 2rem;
+  font-size: 0.9rem;
+  color: #57abff;
+  background-color: white;
+  border: 1px solid #b3b3b3;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #57abff;
+  color: white;
+  border: 1px solid #9c9dde;
+}
+
+
+
+
+.searchInput button:hover {
+  color: #fff;
+  background-color:#004d99;
+  border: 1px solid #9c9dde;
+ 
+}
+
+
+.weatherIcon {
+  display: flex;
+  padding-top: 0.7.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.weatherIcon img {
+  max-width: 100%;
+  width: 8rem;
+}
+
+.weatherDetails .temp{
+ font-size: 2rem;
+ color:black;
+}
+.cityDetails {
+  color: #323232;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.cityDetails.t
+{
+	color:black;
+}
+
+.cityDetails .date {
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.windDetails {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-around;
+}
+
+.windDetails .humidityBox {
+  display: flex;
+  font-size: 1rem;
+  color:red;
+}
+
+.windDetails .humidity .humidityValue {
+ text-align: center;
+  font-size: 2rem;
+  color: #323232;
+}
+
+.windDetails .humidityBox img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.windDetails .windSpeed {
+  display: flex;
+  font-size: 1rem;
+  color: #323232;
+}
+
+.windDetails .windSpeed img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+
+image-logo{
+        height: auto;
+        width: auto;
+        filter: drop-shadow(20px 10px 10px black);
+      }
