@@ -1,2 +1,2 @@
-# wearher-app
+# weather-app
 weather web app
